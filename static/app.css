@@ -1,0 +1,154 @@
+
+body {background-color: #e9ecef;}
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  margin: 0;
+
+}
+
+.changed {
+      background: #E4E7ED!important;
+      transition: all .3s ease;
+}
+
+.name {
+      display: flex;
+      align-items: center;
+}
+.name img {
+      width: 25px;
+      margin-right: 10px;
+}
+.name h2 {margin: 0;}
+
+.mb-20 {margin-bottom: 20px;}
+.mb-40 {margin-bottom: 40px;}
+.mb-0 {margin-bottom: 0;}
+
+.main {padding: 30px 0;}
+.box {
+    background: #fff;
+    box-shadow: 0 2px 0 rgba(0,0,0,.1);
+    border-radius: 3px;
+}
+.box .inner {padding: 25px;}
+.box hr {margin:0;}
+.box .inner.sml {padding: 15px 25px;}
+
+.change {
+      background: #E4E7ED;
+      padding: 6px 30px;
+      display: inline-block;
+      font-weight: 600;
+}
+.change.positive {
+      color: #45b543;
+      background: #d4f1d4;
+}
+.change.negative {
+      color: #ef5858;
+      background: #f9e2e2;
+}
+
+.subtitle {
+      color: #909399;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+}
+h1, h2,h3, h4, h5 {font-weight:bold;}
+
+.br {border-right: solid 1px #e5e8ea;}
+
+.navbar .el-select {width: 100px;}
+
+.navbar-text {    padding: 6px 0;}
+.navbar-brand img {    width: 38px;}
+.header-metrics {overflow: hidden; margin: 0;}
+.header-metrics li {
+      float: left;
+      margin-right: 25px;
+      text-align: left;
+}
+.header-metrics p {
+      margin: 0 0 3px 0;
+      line-height: normal;
+font-size: 13px;
+}
+.header-metrics h5 {
+      margin: 0;
+    font-size: 14px;
+    color: #fff;
+}
+.negativeColor {
+      color: #ef5858;
+}
+.positiveColor {
+      color: #45b543;
+}
+#footer {
+      padding: 20px 0 50px 0;
+}
+#footer ul {
+          margin: 5px 0 0 0;
+}
+#footer ul li {
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 10px;
+}
+
+.market-coins {
+	min-height: 100vh;
+}
+
+
+@media(max-width: 768px){
+	.navbar {
+		display: block;
+	}
+	.navbar-brand {float: left;}
+	.navbar-text {
+		display: block;
+		margin-left: 60px;
+	}
+	.header-metrics li:nth-child(3), .header-metrics li:nth-child(4){display: none;}
+
+	h1.display-5 {font-size: 1.6rem;}
+
+	.jumbotron {
+		.lead {
+			font-size: 1.1rem;
+		}
+	}
+
+	.market-coins {
+		.el-col.search {width: 100%;}
+	}
+		.el-pagination__jump, .el-pagination__sizes, .el-pagination__total {display: none!important;}
+}
+
+@media(max-width: 768px){
+	.navbar-text {display: none;}
+	.navbar-brand {float: none;}
+	.navbar {text-align: left;}
+
+	.mmb-20 {margin-bottom: 20px;}
+
+	.br {
+	    border-bottom: solid 1px #e5e8ea;
+	    border-right: none;
+	}
+
+	.cointable .search {width: 100%;}
+
+	.navbar-collapse {
+		display: block;
+		float: right;
+		padding: 5px 0 0 0;
+	}
+}
