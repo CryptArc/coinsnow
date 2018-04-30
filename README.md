@@ -1,21 +1,24 @@
-# cryptocurrency
 
-> A Vue.js project
+## Vuejs Realtime Cryptocurrency Market Capitalizations
 
-## Build Setup
+- Real time price update 
+- Over 1000 cryptocurrencies 
+- 32 currency rates (i.e USD, GBP etc)
+- No DB needed 
+- Fully Responsive 
+- Historic Charts
+- VueJS
 
-``` bash
-# install dependencies
-npm install
+A small Vuejs web app i built a while ago, and decided to make it open source. Feel free to contribute or make suggestions.
 
-# serve with hot reload at localhost:8080
-npm run dev
+## Get Started
 
-# build for production with minification
-npm run build
+[View Demo](https://coinsnow.co)
 
-# build for production and view the bundle analyzer report
-npm run build --report
-```
+## Demo
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+[View Demo](https://coinsnow.co)
+
+## License
+
+Coinsnow is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
